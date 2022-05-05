@@ -39,6 +39,3 @@ Instance --> Instancia asociada al host
 OS CPE --> Información del Sistema Operativo
 Category --> Categoría de la Vulnerabilidad
 IP Status --> Estado de la IP (Muy usado para temas de Network Discovery)
-
- 
-
