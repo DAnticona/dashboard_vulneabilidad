@@ -4,20 +4,22 @@
 - BD: Knowledge DataBase
 - Inputs: IPs de los Servidores de la Pesquera Peruana
 
-## Descripción
-
 <!-- ÍNDICE DE CONTENIDOS -->
 <details>
   <summary>Índice de contenidos</summary>
   <ol>
+    <li><a href="#descripción-del-proyecto">Descripción del Proyecto</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
     <li><a href="#headers-raw">Headers Raw</a></li>
     <li><a href="#headers-omitidos">Headers Omitidos</a></li>
     <li><a href="#autores">Autores</a></li>
-    <li><a href="#historial-de-la-versión">Historial de la versión</a></li>
+    <li><a href="#historial-de-la-versión">Historial de la Versión</a></li>
     <li><a href="#reconocimientos">Reconocimientos</a></li>
   </ol>
 </details>
+
+## Descripción del Proyecto
+Descripción del proyecto
 
 ## Inventario de Headers
 
@@ -67,7 +69,7 @@ David Anticona
 Brian Dextre
 Christian Torres
 
-## Historial de la versión
+## Historial de la Versión
 
 * 0.1
     * Publicación inicial
