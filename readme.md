@@ -9,6 +9,7 @@
   <summary>Índice de contenidos</summary>
   <ol>
     <li><a href="#descripción-del-proyecto">Descripción del Proyecto</a></li>
+    <li><a href="#preguntas-que Responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
     <li><a href="#headers-raw">Headers Raw</a></li>
     <li><a href="#headers-omitidos">Headers Omitidos</a></li>
@@ -20,6 +21,11 @@
 
 ## Descripción del Proyecto
 Descripción del proyecto
+
+## Preguntas que Responde el Proyecto
+- Porcentaje de activos con vulnerabilidad explotables en los ultimos 30 días.
+- Porcentaje de activos con vulnerabilidades con severidad alta.
+- Porcentaje de activos que poseen parches pendientes de instalar.
 
 ## Inventario de Headers
 
