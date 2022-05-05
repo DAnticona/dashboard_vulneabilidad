@@ -65,15 +65,17 @@ No se toman en cuenta para nuestro modelado debido a que no aportan información
 
 ## Autores
 
-David Anticona
-Brian Dextre
-Christian Torres
+- David Anticona
+- Brian Dextre
+- Christian Torres
 
 ## Historial de la Versión
 
 * 0.1
     * Publicación inicial
 
-## Reconocimientos
+## Referencias
 
 * [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+* [Shiny - RStudio](https://shiny.rstudio.com/tutorial/)
+* [Introducción a la programación en R](https://rsanchezs.gitbooks.io/rprogramming/content/index.html)
