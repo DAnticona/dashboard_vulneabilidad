@@ -1,4 +1,4 @@
-# Dashboard Vulnerability
+# [![Dashboard Vulnerability](https://img.shields.io/badge/Dashboard_Vulnerability%20-%23323330.svg?&style=for-the-badge&logo=repositório&logoColor=black&color=b718db)](https://github.com/iuricode/README-template/blob/main/README-repository/iuricode.md)
 
 - Tool: Qualys Guard
 - BD: Knowledge DataBase
@@ -9,7 +9,7 @@
   <summary>Índice de contenidos</summary>
   <ol>
     <li><a href="#descripción-del-proyecto">Descripción del Proyecto</a></li>
-    <li><a href="#preguntas-que Responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
+    <li><a href="#preguntas-que-responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
     <li><a href="#flujos-que-responde-las-preguntas">Flujos que Responde las Preguntas</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
     <li><a href="#headers-raw">Headers Raw</a></li>
@@ -80,9 +80,9 @@ No se toman en cuenta para nuestro modelado debido a que no aportan información
 
 ## Autores
 
-- David Anticona
-- Brian Dextre
-- Christian Torres
+- 👤 David Anticona
+- 👤 Brian Dextre
+- 👤 Christian Torres
 
 ## Historial de la Versión
 
