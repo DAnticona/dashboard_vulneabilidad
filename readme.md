@@ -1,12 +1,6 @@
 # [![Dashboard Vulnerability](https://img.shields.io/badge/Dashboard_Vulnerability%20-%23323330.svg?&style=for-the-badge&logo=repositório&logoColor=black&color=b718db)](https://github.com/DAnticona/dashboard_vulnerability)
 
-<h1 align="center">
-  <br>
-  <a href="https://github.com/DAnticona/dashboard_vulnerability"><img src="https://i.ibb.co/mtzt5PZ/Whats-App-Image-2022-05-06-at-8-00-05-AM.jpg" alt="Markdownify" width="1000"></a>
-  <br>
-  Dashboard Vulnerability
-  <br>
-</h1>
+
 
 - Tool: Qualys Guard
 - BD: Knowledge DataBase
@@ -16,7 +10,8 @@
 <details>
   <summary>Índice de contenidos</summary>
   <ol>
-    <li><a href="#descripción-del-proyecto">Descripción del Proyecto</a></li>
+    <li><a href="#descripción">Descripción</a></li>
+    <li><a href="#diagrama-de-flujos">Diagrama de Flujos</a></li>
     <li><a href="#preguntas-que-responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
     <li><a href="#flujos-que-responde-las-preguntas">Flujos que Responde las Preguntas</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
@@ -28,8 +23,16 @@
   </ol>
 </details>
 
-## Descripción del Proyecto
+## Descripción
 Descripción del proyecto
+
+## Diagrama de Flujos
+<h1 align="center">
+  <br>
+  <a href="https://github.com/DAnticona/dashboard_vulnerability"><img src="https://i.ibb.co/mtzt5PZ/Whats-App-Image-2022-05-06-at-8-00-05-AM.jpg" alt="Dashboard Vulnerability" width="1000"></a>
+  <br>
+  <br>
+</h1>
 
 ## Preguntas que Responde el Proyecto
 - Porcentaje de activos con vulnerabilidad explotables en los ultimos 30 días.
@@ -41,8 +44,6 @@ Descripción del proyecto
 ### Pregunta 01
 ### Pregunta 02
 ### Pregunta 03
-
-![Flujos de Respuesta a las 3 preguntas](https://ibb.co/ZKTKzb4)
 
 ## Inventario de Headers
 
