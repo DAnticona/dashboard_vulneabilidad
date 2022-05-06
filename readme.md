@@ -10,6 +10,7 @@
   <ol>
     <li><a href="#descripción-del-proyecto">Descripción del Proyecto</a></li>
     <li><a href="#preguntas-que Responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
+    <li><a href="#flujos-que-responde-las-preguntas">Flujos que Responde las Preguntas</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
     <li><a href="#headers-raw">Headers Raw</a></li>
     <li><a href="#headers-omitidos">Headers Omitidos</a></li>
@@ -26,6 +27,14 @@ Descripción del proyecto
 - Porcentaje de activos con vulnerabilidad explotables en los ultimos 30 días.
 - Porcentaje de activos con vulnerabilidades con severidad alta.
 - Porcentaje de activos que poseen parches pendientes de instalar.
+
+## Flujos que Responde las Preguntas
+
+### Flujo 01
+
+### Flujo 02
+
+### Flujo 03
 
 ## Inventario de Headers
 
