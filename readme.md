@@ -30,11 +30,11 @@ Descripción del proyecto
 
 ## Flujos que Responde las Preguntas
 
-### Flujo 01
+### Pregunta 01
+### Pregunta 02
+### Pregunta 03
 
-### Flujo 02
-
-### Flujo 03
+![Flujos de Respuesta a las 3 preguntas](https://ibb.co/ZKTKzb4)
 
 ## Inventario de Headers
 
