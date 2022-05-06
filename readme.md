@@ -1,11 +1,5 @@
 # [![Dashboard Vulnerability](https://img.shields.io/badge/Dashboard_Vulnerability%20-%23323330.svg?&style=for-the-badge&logo=repositório&logoColor=black&color=b718db)](https://github.com/DAnticona/dashboard_vulnerability)
 
-
-
-- Tool: Qualys Guard
-- BD: Knowledge DataBase
-- Inputs: IPs de los Servidores de la Pesquera Peruana
-
 <!-- ÍNDICE DE CONTENIDOS -->
 <details>
   <summary>Índice de contenidos</summary>
@@ -19,12 +13,14 @@
     <li><a href="#headers-omitidos">Headers Omitidos</a></li>
     <li><a href="#autores">Autores</a></li>
     <li><a href="#historial-de-la-versión">Historial de la Versión</a></li>
-    <li><a href="#reconocimientos">Reconocimientos</a></li>
+    <li><a href="#referencias">Referencias</a></li>
   </ol>
 </details>
 
 ## Descripción
-Descripción del proyecto
+- Tool: Qualys Guard
+- BD: Knowledge DataBase
+- Inputs: IPs de los Servidores de la Pesquera Peruana
 
 ## Diagrama de Flujos
 <h1 align="center">
