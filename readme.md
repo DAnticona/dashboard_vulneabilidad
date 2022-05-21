@@ -5,6 +5,20 @@
   <summary>Índice de contenidos</summary>
   <ol>
     <li><a href="#descripción">Descripción</a></li>
+    <li><a href="#instalación">Instalación</a></li>
+    <li>
+      <a href="#instalación">Instalación</a>
+      <ul>
+        <li><a href="#requerimientos">Requerimientos</a></li>
+      </ul>
+      <ul>
+        <li><a href="#input">Input</a></li>
+      </ul>
+      <ul>
+        <li><a href="#output">Output</a></li>
+      </ul>
+    </li>
+    <li><a href="#ejecución-del-programa">Ejecución del programa</a></li>
     <li><a href="#preguntas-que-responde-el-proyecto">Preguntas que Responde el Proyecto</a></li>
     <li><a href="#flujos-que-responde-las-preguntas">Flujos que Responde las Preguntas</a></li>
     <li><a href="#inventario-de-headers">Inventario de Headers</a></li>
@@ -27,6 +41,49 @@
 - Tool: Qualys Guard
 - BD: Knowledge DataBase
 - Inputs: IPs de los Servidores de la Pesquera Peruana
+
+## Instalación
+
+### Requerimientos
+Estos son los paquetes necesarios para el correcto funcionamiento del sistema.
+
+```
+require("dplyr")
+```
+```
+library(stringr)
+```
+```
+library(flexdashboard)
+```
+```
+library(formattable)
+```
+```
+library(r2d3)
+```
+```
+library(ggplot2)
+```
+```
+library(tidyverse)
+```
+
+### Input
+Se debe tener un archivo csv llamada calidad1.csv en el subdirectorio resources del proyecto, que debe contener las cabeceras mencionadas líneas arriba.
+
+### Output
+El sistema arroja un nuevo archivo csv llamado procesado.csv, el cual se encuentra en el subdirectorio outputs, cada vez que se ejecuta el programa, se genera un nuevo archivo procesado.csv a partir del input.
+
+## Ejecución del programa
+Para ejecutar el programa, se debe ubicar en el archivo plots.Rmd y dar click en el botón “Run Document”, el mismo ejecutará el programa abriendo una ventana con los dashboards de vulnerabilidades.
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/DAnticona/dashboard_vulnerability"><img src="https://i.ibb.co/KqF81Nz/Picture1.png" alt="Dashboard Vulnerability" width="1000"></a>
+  <br>
+  <br>
+</h1>
 
 ## Preguntas que Responde el Proyecto
 - Porcentaje de activos con vulnerabilidad explotables en los ultimos 30 días.
