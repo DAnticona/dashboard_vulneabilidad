@@ -1,0 +1,98 @@
+---
+title: "Dashboard Vulnerabilidades"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    source_code: https://github.com/DAnticona/dashboard_vulnerability.git
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(formattable)
+library(r2d3)
+library(ggplot2)
+library(tidyverse)
+# library(knitr)
+
+# knitr::opts_chunk$set(echo=FALSE, comment=NA)
+source("sort_data.R")
+
+```
+
+Explotables
+=======================================================================
+
+Row
+-----------------------------------------------------------------------
+
+### % Vulnerabilidades Explotables {.value-box}
+
+```{r}
+rExplotable <- percent((sum(with(dfcalidad,Explotable == "Si")) / nrow(dfcalidad)), 2)
+
+renderValueBox({
+  valueBox(rExplotable, icon = "fa-pie-chart")
+})
+```
+
+Row
+-----------------------------------------------------------------------
+
+### 10 activos con mayor número de vulnerabilidades explotables
+```{r, echo=FALSE}
+ggplot(data = dfExplotable) + aes(x = Total, y = IP) + geom_bar(stat="identity", position="identity", fill="#1380A1") + labs(x = "Nro explotables", y = "Activos")
+```
+
+Severidad
+=======================================================================
+Row
+-----------------------------------------------------------------------
+### % Vulnerabilidades Críticas {.value-box}
+
+```{r}
+nCritical <- percent((sum(with(dfcalidad,Severidad == "Crítica")) / nrow(dfcalidad)), 2)
+
+renderValueBox({
+  valueBox(value = nCritical, icon = "fa-exclamation-circle", color = "red")
+})
+```
+
+### % Vulnerabilidades Altas {.value-box}
+
+```{r}
+nHigh <- percent((sum(with(dfcalidad,Severidad == "Alta")) / nrow(dfcalidad)), 2)
+
+renderValueBox({
+  valueBox(value = nHigh, icon = "fa-exclamation-triangle", color = "orange")
+})
+```
+
+Row
+-----------------------------------------------------------------------
+### Severidad de la vulnarabilidades
+
+```{r, echo=FALSE}
+r2d3(data = dfSeveridad, d3_version = 4, script = "bubbles.js", width="100%", options = list(color = "orange"))
+```
+Parches Pendientes
+=======================================================================
+Row
+-----------------------------------------------------------------------
+### % Activos con parches pendientes {.value-box}
+
+```{r}
+nPatch <- percent((sum(with(dfcalidad, parche == "Pendiente")) / nrow(dfcalidad)), 2)
+
+renderValueBox({
+  valueBox(value = nPatch, icon = "fa-tasks")
+})
+```
+
+Row
+-----------------------------------------------------------------------
+### Parches Pendientes
+
+```{r}
+ggplot(data = dfParches) + aes(x = parche, y = Total) + geom_bar(stat="identity", position="identity", fill="#1380A1") + labs(x = "Activos", y = "Nro observaciones")
+```
